@@ -2393,50 +2393,50 @@ There are currently 4 AI Design Patterns:
 - Planning Pattern
 - Multi-Agent Pattern
 
-The *Reflection Pattern* empowers agents to introspect and evaluate their actions or decisions. This pattern is about iterative improvement, where agents not only perform tasks but also analyze outcomes to refine their approach. A use case would be a trading bot.
-*Key Features*:
+The **Reflection Pattern** empowers agents to introspect and evaluate their actions or decisions. This pattern is about iterative improvement, where agents not only perform tasks but also analyze outcomes to refine their approach. A use case would be a trading bot.
+**Key Features**:
 - Self-Evaluation: Agents assess their performance using metrics or goals.
 - Feedback Loops: They adjust their strategies based on the evaluation.
 - Scenario: A recommendation agent reflects on user feedback to improve its suggestions.
-*Design Flow*:
+**Design Flow**:
 1. The Agent performs an action.
 2. Collects results or outcomes.
 3. Reflects on the outcomes against predefined metrics or goals.
 4. Refines strategy or logic based on reflection.
 
-The *Tool Use Pattern* emphasizes equipping agents with external tools or APIs to extend their capabilities. This pattern allows agents to delegate specialized tasks rather than performing everything internally. A use case would be a GenAI support that needs access to external data (database) or external API (JIRA).
-*Key Features*:
+The **Tool Use Pattern** emphasizes equipping agents with external tools or APIs to extend their capabilities. This pattern allows agents to delegate specialized tasks rather than performing everything internally. A use case would be a GenAI support that needs access to external data (database) or external API (JIRA).
+**Key Features**:
 - Specialized Functionality: Agents call tools for tasks like data retrieval, transformation, or complex computations.
 - Interoperability: Seamlessly integrates tools into workflows.
 - Scenario: An AI agent uses an external API to fetch stock prices and another tool for sentiment analysis.
-*Design Flow*:
+**Design Flow**:
 1. The Agent identifies a task that requires a tool.
 2. Calls the appropriate tool with context or parameters.
 3. Receives processed results from the tool.
 4. Integrates the results into its workflow.
 
-The *Planning Pattern* is about agents formulating and executing multi-step plans to achieve complex objectives. It enables systems to dynamically adapt their workflows based on goals and constraints. A use case would be automated banking loan approvals.
-*Key Features*:
+The **Planning Pattern** is about agents formulating and executing multi-step plans to achieve complex objectives. It enables systems to dynamically adapt their workflows based on goals and constraints. A use case would be automated banking loan approvals.
+**Key Features**:
 - Dynamic Goal Alignment: Plans are generated in real time based on inputs or changes.
 - Sequential Execution: Agents execute plans step-by-step, ensuring dependencies are managed.
 - Scenario: A logistics agent plans delivery routes by optimizing for distance, fuel cost, and traffic conditions.
-*Design Flow*:
+**Design Flow**:
 1. Define goals or objectives.
 2. Analyze available resources and constraints.
 3. Generate a sequence of actions to achieve the goals.
 4. Execute the plan while monitoring outcomes.
 
-The *Multi-Agent Pattern* focuses on orchestrating multiple agents to work collaboratively on complex tasks. This pattern leverages agent specialization and parallelism. A use case would be end-to-end task performing (for example end-to-end trading system).
-*Key Features*:
+The **Multi-Agent Pattern** focuses on orchestrating multiple agents to work collaboratively on complex tasks. This pattern leverages agent specialization and parallelism. A use case would be end-to-end task performing (for example end-to-end trading system).
+**Key Features**:
 - Division of Labor: Agents handle different aspects of a task.
 - Coordination: A central orchestrator ensures agents align their actions.
 - Scenario: A marketing workflow involves one agent for content generation, another for scheduling, and a third for analytics.
-*Design Flow*:
+**Design Flow**:
 1. Assign tasks to specialized agents.
 2. Share context or intermediate results between agents.
 3. Orchestrate their actions to achieve the overall objective.
 
-*Resources*:
+**Resources**:
 https://medium.com/@turungkadircan/agentic-design-patterns-how-to-implement-19c881b54dd7
 https://medium.com/@bijit211987/agentic-design-patterns-cbd0aae2962f
 https://dzone.com/articles/agentic-design-patterns
