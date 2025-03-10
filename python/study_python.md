@@ -2,69 +2,49 @@
 
 Disclaimer: Python 2 is legacy since 2020 meaning that it is not supported anymore.
 
-*Resources*:
-- (Python Full Course for Beginners)[https://www.youtube.com/watch?v=_uQrJ0TkZlc&t=109s]
-- (Glossary)[https://www.w3schools.com/python/python_ref_glossary.asp]
-- (Intermediate Python)[https://github.com/patrickloeber/python-engineer-notebooks/tree/master/advanced-python]
-- (Intermediate Python Programming Course)[https://www.youtube.com/watch?v=HGOBQPFzWKo]
-- (Python Tutorial for Beginners)[https://www.youtube.com/watch?v=t8pPdKYpowI]
-- (Python API Dev)[https://www.youtube.com/watch?v=0sOvCWFmrtA]
-- (REST API Crash Course - Introduction + Full Python API Tutorial)[https://www.youtube.com/watch?v=qbLc5a9jdXo]
-- (FastAPI - A python framework | Full Course)[https://www.youtube.com/watch?v=7t2alSnE2-I]
-- (FastAPI Tutorial - Building RESTful APIs with Python)[https://www.youtube.com/watch?v=GN6ICac3OXY]
-- (How to Use FastAPI: A Detailed Python Tutorial)[https://www.youtube.com/watch?v=SORiTsvnU28]
-- (Learn LangChain in 7 Easy Steps - Full Interactive Beginner Tutorial)[https://www.youtube.com/watch?v=8BV9TW490nQ]
-- (Learn RAG From Scratch – Python AI Tutorial from a LangChain Engineer)[https://www.youtube.com/watch?v=sVcwVQRHIc8]
-- (Python Programming Tutorial)[https://python-programming.quantecon.org/intro.html]
+**Resources**:
+- [Python Full Course for Beginners](https://www.youtube.com/watch?v=_uQrJ0TkZlc&t=109s)
+- [Glossary](https://www.w3schools.com/python/python_ref_glossary.asp)
+- [Intermediate Python](https://github.com/patrickloeber/python-engineer-notebooks/tree/master/advanced-python)
+- [Intermediate Python Programming Course](https://www.youtube.com/watch?v=HGOBQPFzWKo)
+- [Python Tutorial for Beginners](https://www.youtube.com/watch?v=t8pPdKYpowI)
+- [Python API Dev](https://www.youtube.com/watch?v=0sOvCWFmrtA)
+- [REST API Crash Course - Introduction + Full Python API Tutorial](https://www.youtube.com/watch?v=qbLc5a9jdXo)
+- [FastAPI - A python framework | Full Course](https://www.youtube.com/watch?v=7t2alSnE2-I)
+- [FastAPI Tutorial - Building RESTful APIs with Python](https://www.youtube.com/watch?v=GN6ICac3OXY)
+- [How to Use FastAPI: A Detailed Python Tutorial](https://www.youtube.com/watch?v=SORiTsvnU28)
+- [Learn LangChain in 7 Easy Steps - Full Interactive Beginner Tutorial](https://www.youtube.com/watch?v=8BV9TW490nQ)
+- [Learn RAG From Scratch – Python AI Tutorial from a LangChain Engineer](https://www.youtube.com/watch?v=sVcwVQRHIc8)
+- [Python Programming Tutorial](https://python-programming.quantecon.org/intro.html)
 
-*Recommended courses*:
-- (100 Days of Code: The Complete Python Pro Bootcamp
-)[https://luxoft.udemy.com/course/100-days-of-code/learn/lecture/23103754#overview]
-- (The Complete Python Bootcamp From Zero to Hero in Python)[https://luxoft.udemy.com/course/complete-python-bootcamp/learn/lecture/3421822#overview]
+**Recommended courses**:
+- [100 Days of Code: The Complete Python Pro Bootcamp
+](https://luxoft.udemy.com/course/100-days-of-code/learn/lecture/23103754#overview)
+- [The Complete Python Bootcamp From Zero to Hero in Python](https://luxoft.udemy.com/course/complete-python-bootcamp/learn/lecture/3421822#overview)
 
-*Project ideas*:
-- (How to make money from Python)[https://www.youtube.com/watch?v=r0m-iSnbKvc]
+**Project ideas**:
+- [How to make money from Python](https://www.youtube.com/watch?v=r0m-iSnbKvc)
 
-*Roadmap*:
-- (Python Roadmap)[https://roadmap.sh/python]
+**Roadmap**:
+- [Python Roadmap](https://roadmap.sh/python)
 
 ## Table of Content
 
 1. [Cheat sheet](#cheat-sheet)
-    - [Python Cheat sheet](#python-cheat-sheet)
-    - [FastAPI CheatSheet](#fastapi-cheatsheet)
-    - [FastAPI Best practices](#fastapi-best-practices)
 2. [Introduction](#introduction)
 3. [Python keywords](#python-keywords)
 4. [Variables](#variables)
-    - [Integer](#integer)
-    - [Float](#float)
     - [String](#string)
-    - [Boolean](#boolean)
-    - [Naming convention in Python](#naming-convention-in-python)
-    - [NoneType Datatype](#notetype-datatype)
 5. [Receive input from user](#receive-input-from-user)
 6. [Built-in functions for type conversion](#built-in-functions-for-type-conversion)
 7. [String](#string)
     - [Formatted strings](#formatted-strings)
     - [String methods](#string-methods)
 8. [Arithmetic Operations](#arithmetic-operations)
-    - [Addition](#addition)
-    - [Subtract](#subtract)
-    - [Division (float)](#division-float)
-    - [Division (integer)](#division-integer)
-    - [Mod](#mod)
-    - [Multiply](#multiply)
-    - [Power (exponentiation)](#power-exponentiation)
-    - [Increment (shorter form)](#increment-shorter-form)
 9. [Math built-in Functions](#math-built-in-functions)
 10. [If statements or conditionals](#if-statements-or-conditionals)
-    - [Logical operators for the if statements](#logical-operators-for-the-if-statements)
     - [Comparison operators (boolean expressions)](#comparison-operators-boolean-expressions)
 11. [Loops](#loops)
-    - [While Loop](#while-loop)
-    - [For Loop](#for-loop)
-    - [Nested loop](#nested-loop)
 12. [Lists](#lists)
     - [List methods](#list-methods)
 13. [Tuples](#tuples)
@@ -86,15 +66,9 @@ Disclaimer: Python 2 is legacy since 2020 meaning that it is not supported anymo
     - [Infinite iterator](#infinite-iterator)
 18. [Functions](#functions)
     - [Lambda Functions](#lambda-functions)
-    - [Mapping function](#mapping-function)
-    - [Filter function](#filter-function)
-    - [Reduce function](#reduce-function)
 19. [Exceptions](#exceptions)
-    - [Raising Exceptions](#raising-exceptions)
-    - [Custom Exceptions](#custom-exceptions)
 20. [Comments](#comments)
 21. [Logging](#logging)
-    - [Logging handler](#logging-handler)
 22. [Classes](#classes)
     - [Inheritance](#inheritance)
     - [Polymorphism](#polymorphism)
@@ -109,22 +83,14 @@ Disclaimer: Python 2 is legacy since 2020 meaning that it is not supported anymo
 28. [Decorators](#decorators)
 29. [Generators](#generators)
 30. [Threading, Multithreading & Multiprocessing](#threading-multithreading--multiprocessing)
-    - [Process vs Thread](#process-vs-thread)
-    - [Multiprocessing](#multiprocessing)
-    - [Multitheading](#multitheading)
-    - [Sharing data between threads with Lock](#sharing-data-between-threads-with-lock)
-    - [Sharing data between threads with queues](#sharing-data-between-threads-with-queues)
-    - [Sharing data between processes](#sharing-data-between-processes)
-    - [Process Pool](#process-pool)
 31. [Shallow vs Deep Copying](#shallow-vs-deep-copying)
 32. [Context Managers](#context-managers)
 33. [Pypi and Pip](#pypi-and-pip)
-    - [Steps to create a Recommendation System](#steps-to-create-a-recommendation-system)
 34. [Django](#django)
 35. [FastAPI](#fastapi)
 36. [LangChain](#langchain)
     - [Chains, Prompts & Loaders](#chains-prompts--loaders)
-    - [LangChain Expression Language (LCEL) & Runnables](#langchain-expression-language--lcel--runnables)
+    - [LangChain Expression Language (LCEL) & Runnables](#langchain-expression-language-lcel--runnables)
     - [Splitters & Retrievers](#splitters--retrievers)
     - [RAG](#rag)
     - [Tools](#tools)
@@ -137,11 +103,11 @@ Disclaimer: Python 2 is legacy since 2020 meaning that it is not supported anymo
 
 ## Cheat sheet:
 
-- (Python Cheat sheet)[https://github.com/gto76/python-cheatsheet]
-- (FastAPI CheatSheet)[https://studygyaan.com/cheatsheet/fastapi]
-- (FastAPI Best practices)[https://dev.to/devasservice/fastapi-best-practices-a-condensed-guide-with-examples-3pa5]
+- [Python Cheat sheet](https://github.com/gto76/python-cheatsheet)
+- [FastAPI CheatSheet](https://studygyaan.com/cheatsheet/fastapi)
+- [FastAPI Best practices](https://dev.to/devasservice/fastapi-best-practices-a-condensed-guide-with-examples-3pa5)
 
-*Note*: You can search on Google for any type of cheat sheets (or for best practices) for each framework.
+**Note**: You can search on Google for any type of cheat sheets (or for best practices) for each framework.
 
 ## Introduction
 
@@ -156,7 +122,7 @@ print("a string") # a string
 
 Below is the list of all reserved Python keywords:
 
-(list)[https://www.programiz.com/python-programming/keyword-list]
+[list](https://www.programiz.com/python-programming/keyword-list)
 
 The list can also be accessed programatically:
 ```
@@ -164,7 +130,7 @@ import keyword
 print(keyword.kwlist)
 ```
 
-##Variables
+## Variables
 
 A variable consist of a identifier and a value.
 We can define different types of data:
@@ -189,13 +155,13 @@ aString = 'Price'
 is_added = True
 ```
 
-*Naming convention in Python*: lowercase letters and underscores
+**Naming convention in Python**: lowercase letters and underscores
 
-*Note*: It is possible to have a NoneType datatype and the value can be only None (similar to null from Java).
+**Note**: It is possible to have a NoneType datatype and the value can be only None (similar to null from Java).
 
-(All variable types)[https://www.w3schools.com/python/python_datatypes.asp]
+[All variable types](https://www.w3schools.com/python/python_datatypes.asp)
 
-##Receive input from user
+## Receive input from user
 
 To gather an input from user use the following function:
 
@@ -218,14 +184,14 @@ float()
 string()/str()
 bool()
 ```
-(Complete list of built-in functions)[https://www.w3schools.com/python/python_ref_functions.asp]
+[Complete list of built-in functions](https://www.w3schools.com/python/python_ref_functions.asp)
 
 Retrieve type of variable:
 ```
 type(variable)
 ```
 
-##String
+## String
 
 String is an ordered, immutable, text representation.
 You can use 2 type of quotes: '' and "", depending of the scenario. For example:
@@ -304,14 +270,14 @@ msg = f'{stringA} [{stringB]}'
 print(msg) # John [Smith]
 ```
 
-## String (methods)[https://www.w3schools.com/python/python_ref_string.asp]
+## String [methods](https://www.w3schools.com/python/python_ref_string.asp)
 
 Lenght of a string:
 ```
 print(len('Something')) # 9
 ```
 
-*Note*: Function — a set of instructions that perform a task. Method — a set of instructions that are associated with an object.
+**Note**: Function — a set of instructions that perform a task. Method — a set of instructions that are associated with an object.
 
 Convert string to upper case:
 ```
@@ -389,7 +355,7 @@ x += 5
 print(x) # 8
 ```
 
-*Note*: We can do the same thing with other operations
+**Note**: We can do the same thing with other operations
 
 ## Math built-in Functions
 
@@ -446,7 +412,7 @@ print("Enjoy your day")
 - Equal to "=="
 - Not equal "!="
 
-(All operators)[https://www.w3schools.com/python/python_operators.asp]
+[All operators](https://www.w3schools.com/python/python_operators.asp)
 
 ## Loops
 
@@ -529,7 +495,7 @@ numbers2 = numbers.copy()
 print(numbers2) # [14, 10, 8, 7, 4, 2]
 ```
 
-(All list methods)[https://www.w3schools.com/python/python_ref_list.asp].
+[All list methods](https://www.w3schools.com/python/python_ref_list.asp).
 
 ## Tuples
 
@@ -543,7 +509,8 @@ numbers[0] = 42
 print(numbers) # Error
 ```
 
-(List of all tuple methods)[https://www.w3schools.com/python/python_ref_tuple.asp].
+[List of all tuple methods](https://www.w3schools.com/python/python_ref_tuple.asp).
+
 ### Unpacking
 
 This feature works for both lists and tuples as well.
@@ -576,7 +543,7 @@ customer["birthday"] = "1 Jan 1980"
 print(customer.get("birthday")) # 1 Jan 1980
 ```
 
-(List of all dictionary methods)[https://www.w3schools.com/python/python_ref_dictionary.asp]
+[List of all dictionary methods](https://www.w3schools.com/python/python_ref_dictionary.asp)
 
 ## Sets
 
@@ -610,7 +577,7 @@ a = frozenset([1, 2, 3, 4])
 print(a)
 ```
 
-(List of all set methods)[https://www.w3schools.com/python/python_ref_set.asp]
+[List of all set methods](https://www.w3schools.com/python/python_ref_set.asp)
 
 ## Collection
 
@@ -648,7 +615,7 @@ print(pt.x) # 1
 
 It is like regular dictionary, but it remembers the order that the items were inserted.
 
-*Note*: Since python 3.7, the normal dictionary can also remember the order.
+**Note**: Since python 3.7, the normal dictionary can also remember the order.
 
 ```
 from collections import OrderedDict
@@ -800,7 +767,7 @@ greet_user(name = 'John') # Hi John
 print(square(3)) # 9
 ```
 
-*Note*: If you don't add a return keyword in a defined function, python function will automatically return None by default.
+**Note**: If you don't add a return keyword in a defined function, python function will automatically return None by default.
 
 You can use an invariable number of arguments and keywords arguments.
 ```
@@ -846,7 +813,7 @@ def add10_funct(x):
   return x + 10
 ```
 
-*Mapping function*
+**Mapping function**
 
 ```
 # map(func, seq)
@@ -859,7 +826,7 @@ c = [x*2 for x in a]
 print(c) # [2, 4, 6, 8, 10]
 ```
 
-*Filter function*
+**Filter function**
 
 ```
 # filter(func, seq)
@@ -870,7 +837,7 @@ c  = [x for x in a if x%2==0]
 print(c) # [2, 4]
 ```
 
-*Reduce function*
+**Reduce function**
 
 ```
 # reduce(func, seq)
@@ -904,7 +871,7 @@ finally: # It will run no matter if there was an exception or not
 
 ```
 
-(List of Exceptions)[https://www.w3schools.com/python/python_ref_exceptions.asp]
+[List of Exceptions](https://www.w3schools.com/python/python_ref_exceptions.asp)
 
 To raise(or throw) an exception:
 
@@ -1000,7 +967,7 @@ logger.warning('this is a warning')
 logger.error('this is an error')
 ```
 
-*Note*: You can config the logging either by using a file called logging.conf, either by using dictionaries. Click (this link)[https://coderzcolumn.com/tutorials/python/logging-config-simple-guide-to-configure-loggers-from-dictionary-and-config-files-in-python] or (the documentation)[https://docs.python.org/3/library/logging.config.html] to see more examples.
+**Note**: You can config the logging either by using a file called logging.conf, either by using dictionaries. Click [this link](https://coderzcolumn.com/tutorials/python/logging-config-simple-guide-to-configure-loggers-from-dictionary-and-config-files-in-python) or [the documentation](https://docs.python.org/3/library/logging.config.html) to see more examples.
 
 For troubleshooting you can also include stack trace in the logs:
 ```
@@ -1071,7 +1038,7 @@ point1 = Point(10, 20)
 print(point1.x) # 10
 ```
 
-*Note*: **self** is a reference to the current object.
+**Note**: **self** is a reference to the current object.
 
 ### Inheritance
 
@@ -1135,7 +1102,7 @@ for x in (car1, boat1, plane1):
 # Fly!
 ```
 
-## (Magic methods)[https://realpython.com/python-magic-methods/]
+## [Magic methods](https://realpython.com/python-magic-methods/)
 
 In Python, everything we create is an object.
 Magic methods are methods defined in classes that confer custom functionality to instantiated objects. We can somewhat liken them to the methods that Java objects inherit from the Object class.
@@ -1209,7 +1176,7 @@ user = json.loads(userJSON)
 print(user)       
 ```
 
-More details can be found (here)[https://www.w3schools.com/python/python_json.asp] or (here)[https://realpython.com/python-json/]
+More details can be found [here](https://www.w3schools.com/python/python_json.asp) or [here](https://realpython.com/python-json/)
 
 ## Modules
 
@@ -1247,7 +1214,7 @@ import package.module
 # from package import *
 ```
 
-(Index of Python Built-in Modules)[https://docs.python.org/3/py-modindex.html]
+[Index of Python Built-in Modules](https://docs.python.org/3/py-modindex.html)
 
 ### Random library/module
 
@@ -1327,7 +1294,7 @@ def print_age(x):
 # @debug Decorator can also be used for debugging purposes or Class decorator to check (for example) the time execution of a function
 ```
 
-More details can be found (here)[https://realpython.com/primer-on-python-decorators/].
+More details can be found [here](https://realpython.com/primer-on-python-decorators/).
 
 ## Generators
 
@@ -1344,7 +1311,7 @@ value = next(g)
 print(value) # 1
 ```
 
-More details can be found (here)[https://www.geeksforgeeks.org/generators-in-python/] or (here with some use cases)[https://realpython.com/introduction-to-python-generators/].
+More details can be found [here](https://www.geeksforgeeks.org/generators-in-python/) or [here with some use cases](https://realpython.com/introduction-to-python-generators/).
 
 ## Threading, Multithreading & Multiprocessing
 
@@ -1511,7 +1478,7 @@ if __name__ == "__main__":
   q.join()
 ```
 
-*Note*: Daemon threads are background threads that automatically exit as soon as all non-daemon threads (typically the main program) have completed.
+**Note**: Daemon threads are background threads that automatically exit as soon as all non-daemon threads (typically the main program) have completed.
 
 Sharing data between processes(it is a bit different because they don't share the same memory space):
 ```
@@ -1559,7 +1526,7 @@ if __name__ == "__main__":
   print('Number at end is', shared_number.value)
 ```
 
-*Note*: You can also use queues to shared data between processes
+**Note**: You can also use queues to shared data between processes
 
 Process Pool (to manage multiple processes):
 ```
@@ -1708,11 +1675,11 @@ with open_file('notes.txt') as f:
     f.write('Hello, world!')
 ```
 
-More details can be found (here)[https://book.pythontips.com/en/latest/context_managers.html].
+More details can be found [here](https://book.pythontips.com/en/latest/context_managers.html).
 
 ## Pypi and Pip
 
-Go to (Pypi)[pypi.org] to search for third-party libraries/modules/packages to install in your projects. To install a library run the following command:
+Go to [Pypi](pypi.org) to search for third-party libraries/modules/packages to install in your projects. To install a library run the following command:
 
 ```
 pip install <library>
@@ -1727,10 +1694,10 @@ import matplotlib.pyplot as plt # used for data visualization
 import seaborn as sns # used for data visualization
 ```
 
-*Note*: It is recommended to use (Jupyter Notebook)[https://jupyter.org/try-jupyter/notebooks/?path=notebooks/Intro.ipynb] or (Google Colab)[https://colab.google/] for machine learning projects.
+*Note*: It is recommended to use [Jupyter Notebook](https://jupyter.org/try-jupyter/notebooks/?path=notebooks/Intro.ipynb) or [Google Colab](https://colab.google/) for machine learning projects.
 
 Steps to create a Recommendation System:
- 1. Import the data (from (Kaggle)[https://kaggle.com] for example)
+ 1. Import the data (from [Kaggle](https://kaggle.com) for example)
 ```
 import pandas as pd
 data = pd.read_csv('name_of_the_csv_file')
@@ -1761,7 +1728,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 model = DecisionTreeClassifier()
 ```
-*Note*: Navigate to (sklearn)[https://scikit-learn.org/stable/] to see the list of all algorithms suited for various types of ML tasks.
+*Note*: Navigate to [sklearn](https://scikit-learn.org/stable/) to see the list of all algorithms suited for various types of ML tasks.
  5. Train the model
 ```
 model.fit(X_train, y_train)
@@ -1791,9 +1758,7 @@ predictions
 
 9. Visualize predictions/data
 
-## Section
-
-## (Django)[https://www.djangoproject.com/]
+## [Django](https://www.djangoproject.com/)
 
 A Python web framework that help devs to build applications fast. It is suitable for medium-sized or large-sized applications (also used in enterprise).
 
@@ -1862,14 +1827,14 @@ Command for creating a model ready for integration (or migration) with database:
 python3 manage.py makemigrations
 ```
 
-*Note*: Some configurations in settings.py should be done before running the command.
+**Note**: Some configurations in settings.py should be done before running the command.
 
 Command for generating a table in database:
 ```
 python3 manage.py migrate
 ```
 
-## (FastAPI)[https://fastapi.tiangolo.com/]
+## [FastAPI](https://fastapi.tiangolo.com/)
 
 FastAPI is a modern, fast (high-performance), web framework for building APIs with Python based on standard Python type hints. It is easy to learn, help developers to code faster, it has great support for automatic documentation and it is on par with NodeJS and Go. It also provides support for async/await operations. It is used for complex and scalable applications.
 
@@ -1884,7 +1849,7 @@ To run a FastAPI app run the command:
 ```
 uvicorn main:app --reload
 ```
-*Note*: Reload flag will make the server to reload each time we do modifications in our codebase.
+**Note**: Reload flag will make the server to reload each time we do modifications in our codebase.
 
 A simple FastAPI app looks like this:
 ```
@@ -1922,17 +1887,17 @@ def index() -> dict[str, dict[int, Item]]:
     return {"items": items}
 ```
 
-More details (here)[https://github.com/ArjanCodes/2023-fastapi/tree/main]
+More details [here](https://github.com/ArjanCodes/2023-fastapi/tree/main)
 
 To access Swagger docs mode type in the browser `localhost:port/docs` to access API documentation type `localhost:port/redoc`
 
-(HTTP status code guide)[https://developer.mozilla.org/en-US/docs/Web/HTTP/Status]
+[HTTP status code guide](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 
 Other useful FastAPI courses:
-- (API integration Course)[https://www.youtube.com/watch?v=rkPIftzu1pQ]
-- (FastAPI - A python framework)[https://www.youtube.com/watch?v=7t2alSnE2-I]
+- [API integration Course](https://www.youtube.com/watch?v=rkPIftzu1pQ)
+- [FastAPI - A python framework](https://www.youtube.com/watch?v=7t2alSnE2-I)
 
-## (LangChain)[https://www.langchain.com/]
+## [LangChain](https://www.langchain.com/)
 
 LangChain is an open source framework for building applications based on large language models (LLMs).
 To be able to use LangChain, you will need to fetch the OpenAI key from the LLM service you want to use (Azure, OpenAI, Anthropic, etc.).
@@ -2225,7 +2190,7 @@ retriever = rds.as_retriever(search_type="similarity", search_kwargs={"k": 10})
 print(retriever.invoke("data analysis"))
 ```
 
-See more about vector databases (here)[https://www.youtube.com/watch?v=ySus5ZS0b94&pp=ygUPVmVjdG9yIGRhdGFiYXNl].
+See more about vector databases [here](https://www.youtube.com/watch?v=ySus5ZS0b94&pp=ygUPVmVjdG9yIGRhdGFiYXNl).
 
 ### RAG
 
@@ -2307,13 +2272,13 @@ agent_executor.invoke(
 ```
 
 Other videos (or Youtube channels) to watch:
-- (Video #1)[https://www.youtube.com/watch?v=au2WVVGUvc8]
-- (Video #2)[https://www.youtube.com/watch?v=RIWbalZ7sTo]
-- (Video #3)[https://www.youtube.com/watch?v=2TJxpyO3ei4]
-- (Video #4)[https://www.youtube.com/watch?v=dXxQ0LR-3Hg]
-- (Video #5)[https://www.youtube.com/watch?v=x0AnCE9SE4A&t=4706s]
-- (Video #6 - Create LLM from Scratch)[https://www.youtube.com/watch?v=UU1WVnMk4E8]
-- (Video #7 - Embeddings and Vector Databases)[https://www.youtube.com/watch?v=ySus5ZS0b94]
+- [Video #1](https://www.youtube.com/watch?v=au2WVVGUvc8)
+- [Video #2](https://www.youtube.com/watch?v=RIWbalZ7sTo)
+- [Video #3](https://www.youtube.com/watch?v=2TJxpyO3ei4)
+- [Video #4](https://www.youtube.com/watch?v=dXxQ0LR-3Hg)
+- [Video #5](https://www.youtube.com/watch?v=x0AnCE9SE4A&t=4706s)
+- [Video #6 - Create LLM from Scratch](https://www.youtube.com/watch?v=UU1WVnMk4E8)
+- [Video #7 - Embeddings and Vector Databases](https://www.youtube.com/watch?v=ySus5ZS0b94)
 
 ## RAG Deep Dive
 
@@ -2330,36 +2295,36 @@ We need to split the documents because they have a limited context window (limit
 
 Retrieval is the component that takes a query, transforms it in a numerical represetation, then searches through the indexed documents (by semantic similarity) to see which document is more relevant to the given query.
 
-*Analogy*: To better understand this imagine that you take a document, split it in some chunks, and then put those chunks in box (3D or embedding space) in different locations (given by the value of the vector representation of each chunk). When we want to send a query, we transform it in a vector representation and add it in the box as well. Then, a search is done (Local Neighborhood Search or K-Nearest Neighbor Algorithm for example) to see which document chunk is closer or more relevant to our query.
+**Analogy**: To better understand this imagine that you take a document, split it in some chunks, and then put those chunks in box (3D or embedding space) in different locations (given by the value of the vector representation of each chunk). When we want to send a query, we transform it in a vector representation and add it in the box as well. Then, a search is done (Local Neighborhood Search or K-Nearest Neighbor Algorithm for example) to see which document chunk is closer or more relevant to our query.
 
 Generation is the component that retrives the documents that are relevant to the query, pack them up into the LLM context window, and produces a more precised response.
 
 Chain is part of LCEL (expression language) that makes easy for devs to compose different Langchain components such as parsers, LLMs, prompts, etc.
 
-An example is available (here)[https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_1_to_4.ipynb]
+An example is available [here](https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_1_to_4.ipynb)
 
-Query translation is a technique that takes a query and translates it in such way that improves a RAG Retrieval. This should solve the problem where users provides an ambiguous query that will get them ambiguous matches (because semantic search on embeddings can't retrieve what the user really meant by that query) resulting in a hallucinated responses from LLMs. The approaches are: multi-query, RAG-Fusion, Step-back prompting, etc.
+**Query translation** is a technique that takes a query and translates it in such way that improves a RAG Retrieval. This should solve the problem where users provides an ambiguous query that will get them ambiguous matches (because semantic search on embeddings can't retrieve what the user really meant by that query) resulting in a hallucinated responses from LLMs. The approaches are: multi-query, RAG-Fusion, Step-back prompting, etc.
 
-Multi-query splits a question into 2-3 different related questions with the help of LLM (so that we have different perspectives of the same question that may help RAG to retrieve relevant documents), stores them (as embedded) in the vector stores, then get a proper answer from the union of all those related questions.
+**Multi-query** splits a question into 2-3 different related questions with the help of LLM (so that we have different perspectives of the same question that may help RAG to retrieve relevant documents), stores them (as embedded) in the vector stores, then get a proper answer from the union of all those related questions.
 
-RAG-Fusion is similar to multi-query approach. The difference is that it takes the generated questions and provides different results that are combined based of the ranking (top 3 documents for example). It uses the concept of Reciprocical Ranking Fusion.
+**RAG-Fusion** is similar to multi-query approach. The difference is that it takes the generated questions and provides different results that are combined based of the ranking (top 3 documents for example). It uses the concept of Reciprocical Ranking Fusion.
 
-Decomposition is a technique that takes a query (or problem), decompose it into subqueries (or subproblems), and then solve them sequentially. IR-CoT (Interleave retrieval with Chain of Thought) is another approach that interleaves Chain of Thought (CoT) generation and knowledge retrieval steps in order to guide the retrieval by CoT and vice-versa. This interleaving allows retrieving more relevant information for later reasoning steps, compared to standard retrieval solely using solely the question as the query.
+**Decomposition** is a technique that takes a query (or problem), decompose it into subqueries (or subproblems), and then solve them sequentially. IR-CoT (Interleave retrieval with Chain of Thought) is another approach that interleaves Chain of Thought (CoT) generation and knowledge retrieval steps in order to guide the retrieval by CoT and vice-versa. This interleaving allows retrieving more relevant information for later reasoning steps, compared to standard retrieval solely using solely the question as the query.
 Combining Decomposition and IR-CoT can result in dinamically retrieval that can help solving the subproblems.
 
-Step-back prompting is a technique that uses few show prompting to produce more abstract step-back question. For example, you can have the question: "In what country Napoleon was born?", the step-back prompting will produce the following question: "What is the personal history of Napoleon?".
+**Step-back prompting** is a technique that uses few show prompting to produce more abstract step-back question. For example, you can have the question: "In what country Napoleon was born?", the step-back prompting will produce the following question: "What is the personal history of Napoleon?".
 
-HyDE is a technique that takes the questions and map them into document space by generating a hypothetical document that will check for similarity with the existing documents from the embedding space.
+**HyDE** is a technique that takes the questions and map them into document space by generating a hypothetical document that will check for similarity with the existing documents from the embedding space.
 
-An example is available (here)[https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_5_to_9.ipynb]
+An example is available [here](https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_5_to_9.ipynb)
 
-Routing is the technique that takes a question then direct the question to the relevant data source (supposing that we have different kinds of databases). There are 2 ways of doing the routing: logically (works mostly with databases or datasources) or semantically (works mostly with prompts).
+**Routing** is the technique that takes a question then direct the question to the relevant data source (supposing that we have different kinds of databases). There are 2 ways of doing the routing: logically (works mostly with databases or datasources) or semantically (works mostly with prompts).
 
 ### Query Construction
 
 It takes a natural language query and converts it into particular domain specific language (for example text-to-SQL, or text-to-JSON).
 
-An example is available (here)[https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_10_and_11.ipynb]
+An example is available [here](https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_10_and_11.ipynb)
 
 ### Indexing Techniques(most of them are based on docs/chunk summaries)
 
@@ -2368,22 +2333,22 @@ An example is available (here)[https://github.com/langchain-ai/rag-from-scratch/
 3. RAPTOR
 4. CoIBERT
 
-An example is available (here)[https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_12_to_14.ipynb]
+An example is available [here](https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_12_to_14.ipynb)
 
 ### Active RAG
 
 LLM decides when and what to retrieve based upon retrieval and/or generation. Active RAG can be implemented using State Machines.
 
-An approach is CRAG (Corrective-RAG) which takes a question, retrieve some documents, grade them by relevance, then, if no document is relevant, transform the query and perform web search that will serve as the context window for the LLM, then generate the final answer. If there are relevant docs, then generate the response based on those relevant docs.
+An approach is **CRAG** (Corrective-RAG) which takes a question, retrieve some documents, grade them by relevance, then, if no document is relevant, transform the query and perform web search that will serve as the context window for the LLM, then generate the final answer. If there are relevant docs, then generate the response based on those relevant docs.
 
 Adaptive RAG has 2 main ideas:
 1. Query Analysis: Re-writing and Routing
 2. Online Testing: Testing some parts from the RAG pipeline or RAG inference (retrieval for example). It is based on structured output.
-(Command-R)[https://docs.cohere.com/v2/docs/command-r] from Cohere is a good model for this use case.
+[Command-R](https://docs.cohere.com/v2/docs/command-r) from Cohere is a good model for this use case.
 
-An example is available (here)[https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_15_to_18.ipynb]
+An example is available [here](https://github.com/langchain-ai/rag-from-scratch/blob/main/rag_from_scratch_15_to_18.ipynb)
 
-(Beginners Guide to LangChain)[https://www.freecodecamp.org/news/beginners-guide-to-langchain/]
+[Beginners Guide to LangChain](https://www.freecodecamp.org/news/beginners-guide-to-langchain/)
 
 ## AI Agentic Design Patterns
 
@@ -2437,10 +2402,10 @@ The **Multi-Agent Pattern** focuses on orchestrating multiple agents to work col
 3. Orchestrate their actions to achieve the overall objective.
 
 **Resources**:
-https://medium.com/@turungkadircan/agentic-design-patterns-how-to-implement-19c881b54dd7
-https://medium.com/@bijit211987/agentic-design-patterns-cbd0aae2962f
-https://dzone.com/articles/agentic-design-patterns
-https://github.com/pdichone/agentic-design-patterns/tree/main
+<https://medium.com/@turungkadircan/agentic-design-patterns-how-to-implement-19c881b54dd7>
+<https://medium.com/@bijit211987/agentic-design-patterns-cbd0aae2962f>
+<https://dzone.com/articles/agentic-design-patterns>
+<https://github.com/pdichone/agentic-design-patterns/tree/main>
 
 ## Troubleshooting
 
