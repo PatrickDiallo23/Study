@@ -1,6 +1,6 @@
 # Git , GitHub & GitHub Actions Study
 
-**Git Installation Guides**: [1](https://github.com/git-guides/install-git), [2](https://git-scm.com/downloads)
+**Git Installation Guides**: [Git Guides Install Git](https://github.com/git-guides/install-git), [Git SCM Downloads](https://git-scm.com/downloads)
 
 **Resources**:
 - [Git tutorial](https://learngitbranching.js.org/)
@@ -106,9 +106,11 @@ GitHub is a website to host your repositories and manage your code online. It is
 ## GitHub Workflow
 
 **GitHub Dev common workflow from ByteByteGo.com**
+
 ![GitHub Workflow](images/git_workflow.png "GitHub Workflow")
 
 **GitHub SLDC Workflow from [Nexus Link Services](https://nexuslinkservices.com/git-workflow-in-software-development-life-cycle/)**
+
 ![GitHub SLDC Workflow](images/git-SLDC-flow.jpg "GitHub SLDC Workflow")
 
 ## What is a Git remote?
