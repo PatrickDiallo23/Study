@@ -2,6 +2,8 @@
 
 Disclaimer: Python 2 is legacy since 2020 meaning that it is not supported anymore.
 
+**Python Installation Guides**: [Installing Python](https://realpython.com/installing-python/)
+
 **Resources**:
 - [Python Full Course for Beginners](https://www.youtube.com/watch?v=_uQrJ0TkZlc&t=109s)
 - [Glossary](https://www.w3schools.com/python/python_ref_glossary.asp)
