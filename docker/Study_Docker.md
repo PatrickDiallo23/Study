@@ -338,7 +338,7 @@ docker container unpause CONTAINER [CONTAINER...]
 
 Docker Container Lifecycle Simplified:
 
-![Simplified Docker Container Lifecycle](images/docker_container_lifecycle_simplified.jpeg "Simplified Docker Container Lifecycle")
+![Simplified Docker Container Lifecycle](images/docker-container-lifecycle-management.png "Simplified Docker Container Lifecycle")
 
 Docker Container Lifecycle Extended:
 
