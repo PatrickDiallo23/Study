@@ -336,9 +336,11 @@ Unpause all processes within one or more containers:
 docker container unpause CONTAINER [CONTAINER...]
 ```
 
-Docker Container Lifecycle:
+Docker Container Lifecycle Simplified:
+
 ![Simplified Docker Container Lifecycle](images/docker_container_lifecycle_simplified.jpeg "Simplified Docker Container Lifecycle")
 
+Docker Container Lifecycle Extended:
 
 ![ExtendedDocker Container Lifecycle](images/docker_container_lifecycle_extended.png "Extended Docker Container Lifecycle")
 
